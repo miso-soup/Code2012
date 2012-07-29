@@ -1,0 +1,38 @@
+﻿
+@section scripts {
+     @Scripts.Render("~/answer")
+}
+
+<ul id="answers-content" data-bind="foreach: answers" class="unstyled">
+    <li>
+        <div class="why">
+            <span class="title label large">なぜ？</span>
+            <div class="content">
+                <ul data-bind="foreach: why_reasons">
+                    <li data-bind="text:$data"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="how-year"">
+            <span class="title label">コード歴</span>
+            <div class="content" data-bind="text:how_year"></div>
+        </div>
+        <div class="locale" >
+            <span class="title label">活動拠点</span>
+            <div class="content" data-bind="text:locale"></div>
+        </div>
+        <div class="free-comment" >
+            <span class="title label">コメント</span>
+            <div class="content" data-bind="text:free_comment"></div>
+        </div>
+        <div class="info">
+            <span class="by label">app by</span>
+            <div data-bind="text:app_name"></div>
+            <span class="creation-date label">日付</span>
+            <div data-bind="text:created_at"></div>
+        </div>
+    </li>
+    <li>
+        <hr />
+    </li>
+</ul>

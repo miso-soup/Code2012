@@ -1,0 +1,17 @@
+﻿
+ul#answers-content li div
+{
+    padding-left:20px;
+    margin:5px;
+}
+
+ul#answers-content li .how-year .content
+{
+    font-size:large;
+}
+
+ul#answers-content li .free-comment .content
+{
+    font-size:medium;
+    font-weight:600;
+}
