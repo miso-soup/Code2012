@@ -1,2 +1,2 @@
-Code2012 アンケート表示のWEBアプリ
-"Blog":http://d.hatena.ne.jp/miso_soup3/20120728/1343483699
+Code2012イベント　アンケート表示WEBアプリです。
+"アプリについてのBlog":http://d.hatena.ne.jp/miso_soup3/20120728/1343483699
